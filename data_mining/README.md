@@ -20,7 +20,7 @@ Before testing this tool, please make sure you have the following libraries:
 
 #######  Usage  ########
 
-python TOOL_MINING_VERSION_ALPHA_KRAYNI.py # This script  is the main file.
+python tootl/TOOL_MINING_VERSION_ALPHA_KRAYNI.py # This script  is the main file.
 
 
 #######  Explanations ########
