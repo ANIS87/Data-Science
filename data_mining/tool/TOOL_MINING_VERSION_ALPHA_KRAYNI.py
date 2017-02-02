@@ -96,7 +96,7 @@ class App:
     #self.progressbar_vide.start()
     #self.progressbar_vide.pack() 
     #time.sleep(10)   
-    execfile("transform_data_csv_2017_CPC.py",locals())
+    execfile("../src/transform_data_csv_2017_CPC.py",locals())
     self.progressbar_vide.destroy()
     self.progressbar_rem=self.progressbar_rem
      
@@ -108,7 +108,7 @@ class App:
     
     frame=self.master    
     print ("Machine Learning ...")
-    execfile("Machine_learning_random_forest_System_Pred_AK.py",locals())
+    execfile("../src/Machine_learning_random_forest_System_Pred_AK.py",locals())
      ###figures results 
     if os.path.exists("Machine_learning.png"):
         print("figure existe...")
@@ -127,7 +127,7 @@ class App:
   def callback_machine_sensitivity(self):
     frame=self.master
     print ("Machine Learning sensitivity ...")
-    execfile("Sensivity_Machine_learning_AK.py",locals())
+    execfile("../src/Sensivity_Machine_learning_AK.py",locals())
      ###figures results 
     if os.path.exists("Feature_importances_click.png"):
         print("Figure is shown ......")
@@ -146,7 +146,7 @@ class App:
   def callback_classif_All(self):
     
     print ("Classification ...")
-    execfile("classification_k_prototypes_all_parameter.py",locals())   
+    execfile("../src/classification_k_prototypes_all_parameter.py",locals())   
     frame=self.master
     
      ###figures results 
@@ -167,7 +167,7 @@ class App:
   def callback_classif_two(self):
     
     print ("Classification ...")
-    execfile("Spataila_K_prototypes_classification.py",locals())   
+    execfile("../src/Spataila_K_prototypes_classification.py",locals())   
     frame=self.master
    
      ###figures results 
@@ -189,7 +189,7 @@ class App:
   def callback_statsitcs_event(self):
     
     print ("Statistics event...")
-    execfile("statistiques_click_event_by_user.py",locals())   
+    execfile("../src/statistiques_click_event_by_user.py",locals())   
     frame=self.master
     
      ###figures results 
@@ -210,7 +210,7 @@ class App:
   def callback_statsitcs_cpc(self):
     
     print ("Statistics cpc...")
-    execfile("Statistiques_CPC.py",locals())   
+    execfile("../src/Statistiques_CPC.py",locals())   
     frame=self.master
     
      ###figures results 
@@ -230,7 +230,7 @@ class App:
 
   def callback_statsitcs_Time(self):   
     print ("Statistics time/region...")
-    execfile("Diagram_statistics _marque_city_month.py",locals())   
+    execfile("../src/Diagram_statistics _marque_city_month.py",locals())   
     frame=self.master
     
      ###figures results 
