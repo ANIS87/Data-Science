@@ -1,0 +1,22 @@
+net: "new_train_siameese_anis.prototxt"
+test_iter: 100
+test_interval: 1000
+
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.00001
+lr_policy: "step"
+gamma: 0.1
+type: "SGD"
+
+# stepsize should also be lower, as we're closer to being done
+stepsize: 10000
+display: 20
+max_iter: 500
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/home/duffman/data/Fashion/DeepFashion/Attribute_Prediction/Siamese_Test/model_siamse/my_network_siamese"
+
+# uncomment the following to default to CPU mode solving
+solver_mode: GPU
+
