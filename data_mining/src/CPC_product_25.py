@@ -2,7 +2,6 @@ from __future__ import print_function
 import os
 import pandas
 import random
-import numpy
 import subprocess
 import pandas as pd
 import numpy as np
