@@ -15,12 +15,9 @@ from sklearn.feature_selection import VarianceThreshold
 from sklearn.ensemble import RandomForestClassifier
 from urlparse import urlparse
 import matplotlib.pyplot as plt
-
 from sklearn.base import TransformerMixin
 from sklearn.preprocessing import normalize
 import time
-
-
 
 ####
 
