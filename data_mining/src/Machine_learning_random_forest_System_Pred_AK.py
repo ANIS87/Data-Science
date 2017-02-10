@@ -4,7 +4,6 @@ from sklearn.preprocessing import Imputer
 from sklearn import preprocessing
 import pandas
 import random
-import numpy
 import subprocess
 import pandas as pd
 import numpy as np
@@ -17,11 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 from urlparse import urlparse
 import matplotlib.pyplot as plt
 
-##clean data 
 from sklearn.base import TransformerMixin
-##variance
-from sklearn.feature_selection import VarianceThreshold
-from sklearn import preprocessing 
 from sklearn.preprocessing import normalize
 import time
 
