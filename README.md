@@ -1,7 +1,8 @@
 # Data-Science/data_mining/Hidden_Markov_Model/
 
 The goal of this project  is to analyze the user's behavior on the web pages  using a hidden markov model. 
-![stack Overflow](https://github.com/Anisou20/Segmentation_Images_Deep_Learning/blob/master/examples/good_exemple_sac_main.png)
+![stack Overflow](https://github.com/ANIS87/Data-Science/data_mining/Hidden_Markov_Model/3335576520-HMM.png
+)
 
 
 The final code  contains three folder:
