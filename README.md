@@ -43,6 +43,6 @@ python TOOL_MINING_VERSION_ALPHA_KRAYNI.py # This script  is the main file.
 The "data" button is to transform a BSON file ( given by mongodb) into a csv file. The "machine learning" button is to test algorithms like random forest and to make the sensitivity analysis (e.g., study the impact of such  parameter on the final  model).
 The button "clustering" is to test the classification algorithm "K-prototypes." The statistics button is to display histograms (number of click / view by each city), cpc for each city .... Each button has various options (menu button).
 
-![tool_data_shopedia.png](https://bitbucket.org/repo/4k49eB/images/1971819329-tool_data_shopedia.png)
+![stack Overflow](https://github.com/ANIS87/Data-Science/blob/master/data_mining/tool/1971819329-tool_data_shopedia.png)
 
 The help button can display a paragraph explaining the steps followed in each algorithm.
