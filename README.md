@@ -1,4 +1,5 @@
-# Data-Science
+# Data-Science/data_mining/Hidden_Markov_Model/
+
 The goal of this project  is to analyze the user's behavior on the web pages  using a hidden markov model. 
 
 
